@@ -3,18 +3,6 @@
 
 A web-based application which serve as an interactive space where consumers can track their snack purchases, provide feedback, and help MDLZ gather data-driven insights on consumer preferences. 
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - **User & Admin Authentication**: Supports separate login and registration for users and admins.
@@ -37,23 +25,4 @@ A web-based application which serve as an interactive space where consumers can 
 - **Angular** for the user interface
 - **Chart.js** for data visualization in the insights dashboard
 - **REST APIs** for communication between frontend and backend
-
-## Architecture
-
-The **Bite N Bliss** application follows a microservices-based architecture, with a RESTful API backend built in Spring Boot and an Angular-based frontend. The backend is containerized using Docker and deployed on AWS, while the frontend communicates with the backend via REST APIs.
-
-![Architecture Diagram](path/to/architecture-diagram.png)
-
-## Setup and Installation
-
-### Prerequisites
-
-- **Java 11** or above
-- **Node.js** and **npm** for the Angular frontend
-- **Docker**
-- **PostgreSQL**
-- **AWS Account** for deployment
-
-
-
 
